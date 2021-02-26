@@ -1,5 +1,8 @@
 // Include custom sub theme.
 @import 'custom/variables';
+@import 'custom/card/card';
+@import 'custom/row/row';
+@import 'custom/carousel/carousel';
 //@import 'custom/mixins/misc';
 //@import 'custom/misc';
 
@@ -9,6 +12,9 @@
 // Include parent theme with all things Bootstrap for full override.
 // Relative path to this styles.scss file.
 // Example: @import "../../../../../themes/contrib/bootstrap4/scss/style";
-@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style";
+@import "themes/contrib/bootstrap4/scss/style";
+// or
+// @import "[DOCROOT]/themes/contrib/bootstrap4/scss/style";
 // OR to go back to Bootstrap 4.6.0
 //@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style-4-5";
+
